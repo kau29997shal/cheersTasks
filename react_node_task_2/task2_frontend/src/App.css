@@ -1,0 +1,88 @@
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
+
+.page {
+  padding: 10px;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.pageHead {
+  text-align: center;
+}
+
+.homePage .container {
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.card {
+  border : 2px solid transparent;
+  border-radius: 5px;
+  padding : 5px;
+  margin : 5px;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  width: 385px;
+  height: 175px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(212,212,212,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(212,212,212,1);
+  box-shadow: 5px 5px 5px 0px rgba(212,212,212,1);
+}
+
+.card:hover {
+  border: 2px solid grey;
+  color : rgb(66, 66, 66);
+  background-color: white;
+}
+
+.cardTitle{
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.rating{
+  font-size: 15px;
+}
+
+.date{
+  font-size: 15px;
+}
+
+.linkDiv {
+  text-align: center;
+  margin: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background-color: skyblue;
+  padding: 5px;
+  text-align: center;
+}
+
+.link:hover{
+  color: white;
+  background-color: blue;
+}
